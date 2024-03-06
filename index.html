@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="nav-left">
             <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" name="" id="" placeholder="Search">
+            </div>
         </div>
         <div class="nav-center">
             <ul>
-                <li><a href="#"><img src="images/home.png" alt="home"> <span>Home</span></a></li>
+                <li><a href="#" class="active-link"><img src="images/home.png" alt="home"> <span>Home</span></a></li>
                 <li><a href="#"><img src="images/network.png" alt="home"> <span>My Network</span></a></li>
                 <li><a href="#"><img src="images/jobs.png" alt="home"> <span>Jobs</span></a></li>
                 <li><a href="#"><img src="images/message.png" alt="home"> <span>Messages</span></a></li>
@@ -22,8 +27,16 @@
             </ul>
         </div>
         <div class="nav-right">
-            <img src="images/user-1.png" class="nav-profile-img">
+            <div class="online">
+                <img src="images/user-1.png" class="nav-profile-img">
+            </div>
         </div>
     </nav>
+    <!-- Main -->
+    <div class="container">
+        <div class="left-sidebar"></div>
+        <div class="main-content"></div>
+        <div class="right-sidebar"></div>
+    </div>
 </body>
 </html>
